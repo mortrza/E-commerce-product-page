@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="leftNavbar">
+        <button id="menu">
+          <img src="./images/icon-menu.svg">
+        </button>
+        <h1>sneakers</h1>
+        <div id="slidebar">
+        <div class="slide">
+            <a id="close"><svg width="14" height="15" xmlns="http://www.w3.org/2000/svg"><path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill=" hsl(0, 0%, 0%)" fill-rule="evenodd"/></svg></a>
+            <a id="Collections"> Collections</a>
+            <a id="Men">Men</a>
+            <a id="Women">Women</a>
+            <a id="About">About</a>
+            <a id="Contact">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="rightNavbar">
+        <button>
+          <a id="bascket"><svg width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill="hsl(0, 0%, 0%)" fill-rule="nonzero"/></svg></a>
+          <p id="cartCount">0</p>
+        </button>
+        <a><img src="./images/image-avatar.png" class="avatar" id="avatar"></a>
+      </div>
+    </div>
+    <div class="total">
+      <div class="images">
+        <div class="checkOut" id="checkOut">
+        <h4>Cart</h4>
+        <p id="empty">Your cart is empty</p>
+        <div class="checkOutMain" id="checkOutMain">
+          <div class="checkOutDetails">
+            <img src="./images/image-product-1-thumbnail.jpg" alt="">
+            <div class="description-checkPrice">
+              <p id="description">sssssssss</p>
+              <p id="checkPrice">xxxxxxxxxxxxx</p>
+            </div>
+            <img src="./images/icon-delete.svg" alt="" id="delete">
+          </div>
+          <button>Checkout</button>
+        </div>
+      </div>
+       <div class="images">
+         <img src="./images/image-product-1.jpg" class="product" id="mainImage">
+         <img src="./images/icon-next.svg" alt="next" class="next" id="next">
+       <img src="./images/icon-previous.svg" alt="previous" class="previous" id="previous">
+       <div class="smallImages">
+         <img src="./images/image-product-1-thumbnail.jpg" alt="" id="product-1-thumbnail">
+         <img src="./images/image-product-2-thumbnail.jpg" alt="" id="product-2-thumbnail">
+         <img src="./images/image-product-3-thumbnail.jpg" alt="" id="product-3-thumbnail">
+         <img src="./images/image-product-4-thumbnail.jpg" alt="" id="product-4-thumbnail">
+        </div>
+      </div>
+    </div>
+    <div id="larger">
+      <div id="large">
+        <div class="mainmain">
+          <a id="closeDesktop"><svg width="14" height="15" xmlns="http://www.w3.org/2000/svg"><path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill="hsl(26, 100%, 55%)" fill-rule="evenodd"/></svg>
+          </a>
+        <img src="" alt="" id="first">
+        <img src="./images/icon-next.svg" alt="next" class="next" id="next1">
+        <img src="./images/icon-previous.svg" alt="previous" class="previous" id="previous1">
+        </div>
+      <div class="smallImages">
+      <img src="./images/image-product-1-thumbnail.jpg" alt="" id="product-1-thumbnail-display">
+      <img src="./images/image-product-2-thumbnail.jpg" alt="" id="product-2-thumbnail-display">
+      <img src="./images/image-product-3-thumbnail.jpg" alt="" id="product-3-thumbnail-display">
+      <img src="./images/image-product-4-thumbnail.jpg" alt="" id="product-4-thumbnail-display">
+    </div>
+      </div>
+    </div>
+    <div class="main">
+      <p class="companny">sneakers Company</p>
+      <h1 id="product-title">Fall Limited Edition Sneakers</h1>
+      <p class="details">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <div class="price">
+        <div class="discount">
+          <h1 id="product-price">$125.00</h1>
+          <p>50%</p>
+        </div>
+        <div>
+          <p><s>$250.00</s></p>
+        </div>
+        
+      </div>
+      <div class="buttons">
+        <div class="calculate">
+          <button id="minus"><svg width="12" height="4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M11.357 3.332A.641.641 0 0 0 12 2.69V.643A.641.641 0 0 0 11.357 0H.643A.641.641 0 0 0 0 .643v2.046c0 .357.287.643.643.643h10.714Z" id="a"/></defs><use fill="#FF7E1B" fill-rule="nonzero" xlink:href="#a"/></svg></button>
+          <p id="cartValue">0</p>
+          <button id="plus"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M12 7.023V4.977a.641.641 0 0 0-.643-.643h-3.69V.643A.641.641 0 0 0 7.022 0H4.977a.641.641 0 0 0-.643.643v3.69H.643A.641.641 0 0 0 0 4.978v2.046c0 .356.287.643.643.643h3.69v3.691c0 .356.288.643.644.643h2.046a.641.641 0 0 0 .643-.643v-3.69h3.691A.641.641 0 0 0 12 7.022Z" id="b"/></defs><use fill="#FF7E1B" fill-rule="nonzero" xlink:href="#b"/></svg></button>
+        </div>
+        <button id="addToBascket" class="add"><svg width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill=" hsl(0, 0%, 100%)" fill-rule="nonzero"/></svg>
+          Add to cart</button>
+          
+        </div>
+    </div>
+  </div>
+  </div>
+
+<script src="./app.js"></script>
+<script src="./data.js" type="module"></script>
+<script src="./images.js" type="module"></script>
+</body>
+</html>
